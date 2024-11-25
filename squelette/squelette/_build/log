@@ -1,0 +1,24 @@
+# dune exec devoir_de_programmation -- -data '1 2 3 2' -problem sum -print -query 0 2 -query 0 3 -update 3 0 -print -query 0 3
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Shared cache location: /home/mimichaouaa/.cache/dune/db
+# Workspace root:
+# "/home/mimichaouaa/T\195\169l\195\169chargements/squelette/squelette"
+# Auto-detected concurrency: 4
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; installed_env =
+#      map
+#        { "INSIDE_DUNE" :
+#            "/home/mimichaouaa/T\195\169l\195\169chargements/squelette/squelette/_build/default"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; instrument_with = []
+#  }
+$ /usr/bin/ocamlc.opt -config > /tmp/dune_9e73d9_output
